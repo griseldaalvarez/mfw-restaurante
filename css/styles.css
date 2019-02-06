@@ -50,3 +50,14 @@
   color: #f7f7f7;
   font-size: 16px;
 }
+
+
+/* BEGINNING OF OUR STORY */
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+
+.words{
+  color: red;
+  font-family: 'Oleo Script', cursive;
+  font-weight: 95px;
+
+}
