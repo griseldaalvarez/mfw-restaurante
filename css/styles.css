@@ -3,6 +3,16 @@
   font-family: 'Lobster', cursive;
   font-weight: 600;
   height: 95px;
-  color: #ff0000
+  color: #ff0000;
   /* red */
+  font
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+.bottom_words{
+  font-family: 'Fjalla One', sans-serif;
+  padding-top: 0px;
+
 }
