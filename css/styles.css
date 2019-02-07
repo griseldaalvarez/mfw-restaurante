@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+.words{
+  border-top: #b8b894;
+  font-family: 'Lobster', cursive;
+  font-size: 80px;
+  height: 95px;
+  color: #ff0000;
+  /* red */
+}
+
+.bottom{
+  margin-left: 35px;
+}
+
+
+.right_column{
+  background-position: center;
+  margin-top: 45px;
+}
+
+.styles{
+  font-size: 200px;
+  opacity: 0.2;
+  position: absolute;
+  bottom: 65px;
+  z-index: -1;
+
+}
+/* .text-center{
+  z-index: inherit;
+  position: inherit;
+  color: rgba (149,147,147,0.2);
+} */
+=======
 .wrap{
   min-height: 100vh;
 }
