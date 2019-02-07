@@ -3,3 +3,12 @@
   background-size: cover;
   height: 100vh;
 }
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+.top_words{
+  color: #ff0000;
+  font-family: 'Lobster', cursive;
+}
+
+.bottom_words{
+  color: #ffffff;
+}
