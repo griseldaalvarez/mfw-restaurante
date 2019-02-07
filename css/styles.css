@@ -3,10 +3,19 @@
   background-size: cover;
   height: 100vh;
 }
+
+.box{
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+
 .top_words{
-  color: #ff0000;
+  color: red;
   font-family: 'Lobster', cursive;
+  font-weight: 500;
 }
 
 .bottom_words{
