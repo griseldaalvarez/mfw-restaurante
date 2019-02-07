@@ -1,3 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+.words{
+  border-top: #b8b894;
+  font-family: 'Lobster', cursive;
+  font-size: 80px;
+  height: 95px;
+  color: #ff0000;
+  /* red */
+}
+
+.bottom{
+  margin-left: 35px;
+}
+
+
+.right_column{
+  background-position: center;
+  margin-top: 45px;
+}
+
+.styles{
+  font-size: 200px;
+  opacity: 0.2;
+  position: absolute;
+  bottom: 65px;
+  z-index: -1;
+
+}
+/* .text-center{
+  z-index: inherit;
+  position: inherit;
+  color: rgba (149,147,147,0.2);
+} */
+=======
+.wrap{
+  min-height: 100vh;
+}
+
+.carousel{
+  margin-bottom: 60px;
+}
+
+.carousel-caption{
+  z-index: 10;
+  padding-bottom: 60px;
+}
+
+.carousel-inner .item{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main_img1{
+  background-image: url("../img/wood-2.jpg");
+}
+
+.main_img2{
+  background-image: url("../img/restaurant-2.jpg");
+}
+
+.main_img3{
+  background-image: url("../img/farm-2.jpg");
+}
+
+.main_logo{
+  max-height: 300px;
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: #f8512f;
+  border-color: transparent;
+}
+
+
+.brn-primary:hover{
+  background-color: #d34326;
+  border-color: transparent;
+}
+
+.carousel-caption p{
+  color: #f7f7f7;
+  font-size: 16px;
+}
+
 .picture{
   background-image: url("../img/food_review.jpg");
   background-size: cover;
