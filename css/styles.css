@@ -3,16 +3,3 @@
   background-size: cover;
   height: 100vh;
 }
-
-.box{
-  background-color: #000000;
-  opacity: 0.3;
-}
-
-.top_words{
-  color: #e60000;
-}
-
-.bottom_words{
- color: #ffffff;
-}
