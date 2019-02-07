@@ -1,0 +1,9 @@
+.picture{
+  background-image: url("../img/food_review.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.container{
+  background-color: #f5f5f0;
+}
