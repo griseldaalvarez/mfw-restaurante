@@ -2,22 +2,33 @@
 .words{
   border-top: #b8b894;
   font-family: 'Lobster', cursive;
-  font-weight: 600;
+  font-size: 80px;
   height: 95px;
   color: #ff0000;
   /* red */
-  font
+}
 
+.bottom{
+  margin-left: 35px;
+  padding-bottom: 256px;
 }
 
 
-
 .right_column{
-  background-image: url("../img/1989.jpg");
   background-position: center;
   margin-top: 45px;
 }
 
-.bottom_words{
-  margin-bottom: 65px;
+.styles{
+  font-size: 200px;
+  opacity: 0.2;
+  position: absolute;
+  bottom: 65px;
+  z-index: -1;
+
 }
+/* .text-center{
+  z-index: inherit;
+  position: inherit;
+  color: rgba (149,147,147,0.2);
+} */
