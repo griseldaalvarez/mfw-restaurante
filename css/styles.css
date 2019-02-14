@@ -85,6 +85,28 @@
   font-size: 16px;
 }
 
+
+/* BEGINNING OF OUR STORY */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.wrap{
+  margin-bottom: 255px;
+}
+
+.top_words{
+  color: red;
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+}
+
+.bottom_words{
+  color: #ffffff;
+}
+
+
+
+/* BEGINNING OF REVIEW */
+
 .picture{
   background-image: url("../img/food_review.jpg");
   background-size: cover;
@@ -96,18 +118,13 @@
   opacity: 0.5;
 }
 
-
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-
-.top_words{
-  color: red;
-  font-family: 'Lobster', cursive;
-  font-weight: 500;
+.link{
+  float: left;
+  /* LEFT OFF HERE */
 }
 
-.bottom_words{
-  color: #ffffff;
-}
+
+
 
 /* Menu section */
 
