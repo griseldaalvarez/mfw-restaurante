@@ -108,3 +108,34 @@
 .bottom_words{
   color: #ffffff;
 }
+
+/* Menu section */
+
+#menu{
+  background-image: url("../img/black_linen.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+#menu h1{
+  color: #fff;
+  font-family: "Lobster", cursive;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#menu h3{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight:700;
+  font-size: 2em;
+}
+
+#menu a{
+  color: #f8512f;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
