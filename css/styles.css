@@ -139,3 +139,95 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+#menu p{
+  text-align: justify;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.food{
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+  #menu .nav li a:hover{
+    background-color: #rgba(255, 255, 255, 0.1);
+    border-color: transparent;
+  }
+
+  #menu .nav-justified li a{
+    margin-bottom: -5px;
+  }
+
+  #menu .nav-tabs li a {
+    border: none;
+  }
+
+  /* MENU END */
+
+
+
+
+  /* Content begins */
+
+.contact_form{
+  background-color: #ff6633;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.contact_form form{
+  padding: 5% 0;
+}
+
+.contact_form span{
+  color: #BADA55;
+}
+
+#contact {
+  background-color: #ff0d06;
+}
+
+#contact h1{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 4em;
+}
+
+#contact p{
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1em;
+}
+
+#contact_fine_print {
+  font-size: 12px !important;
+  text-align: center;
+}
+
+address{
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.contact_bottom{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+/* Finished contact */
+
+
+
+
+/* MEDIA QUERY */
+
+@media (max-width:987px){
+  .story_year{
+    font-size: 160px;
+  }
+}
