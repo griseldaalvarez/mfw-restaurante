@@ -31,7 +31,7 @@
   position: inherit;
   color: rgba (149,147,147,0.2);
 } */
-=======
+
 .wrap{
   min-height: 100vh;
 }
@@ -118,10 +118,10 @@
   opacity: 0.5;
 }
 
-.link{
-  float: left;
-  /* LEFT OFF HERE */
+#review a{
+  float: rigth;
 }
+/* NOT WORKING. NEED TO COME BACK TO THIS */
 
 
 
