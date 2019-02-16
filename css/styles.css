@@ -240,8 +240,13 @@ address{
 
 /* BEGINNING OF FOOTER */
 .footer{
-  height: 40vh;
+  height: 85px;
   background-color: #f7f7f7;
+}
+
+.name{
+  margin-top: 35px;
+  background-color: #f8512f;
 }
 
 
