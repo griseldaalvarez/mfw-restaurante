@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+#
+
 .words{
   border-top: #b8b894;
   font-family: 'Lobster', cursive;
@@ -252,6 +254,7 @@ address{
 .name{
   margin-top: 30px;
   background-color: #f8512f;
+  margin-left: 10px;
 }
 
 .fa{
