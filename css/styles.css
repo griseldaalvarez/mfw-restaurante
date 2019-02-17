@@ -321,6 +321,23 @@ address{
 }
 
 @media (max-width: 787px){
+  #our_story{
+    background-color: #ffff99;
+  }
+}
+
+@media (max-width: 787px){
+  #our_story h1{
+    color: #008000;
+    background-color: #cccc00;
+  }
+  .styles{
+    color: #ff0066;
+  }
+}
+
+
+@media (max-width: 787px){
   #contact{
     background-color: #660033;
   }
