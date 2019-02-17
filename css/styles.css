@@ -242,7 +242,7 @@ address{
 
 /* BEGINNING OF FOOTER */
 #footer{
-  height: 85px;
+  height: 150px;
   background-color: #f7f7f7;
 }
 
@@ -252,7 +252,7 @@ address{
 /* above not working;need help */
 
 .name{
-  margin-top: 30px;
+  margin-top: 65px;
   background-color: #f8512f;
   margin-left: 10px;
 }
@@ -279,9 +279,14 @@ address{
   background-color: #cb0366;
   color: #ffffff;
 }
+.fa-snapchat{
+  background-color: #fffa01;
+  color: #ffffff;
+  margin-left: 9px;
+}
 
 .low{
-  margin-top: 35px;
+  margin-top: 40px;
 }
 
 #footer a:hover{
