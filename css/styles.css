@@ -89,21 +89,20 @@
 
 
 /* BEGINNING OF OUR STORY */
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+
 
 .wrap{
   margin-bottom: 45px;
 }
 
-.top_words{
+#our_story h1{
   color: red;
   font-family: 'Lobster', cursive;
-  font-weight: 500;
+  font-weight: bolder;
+  font-size: 90px;
 }
 
-.bottom_words{
-  color: #ffffff;
-}
+
 
 
 
@@ -118,6 +117,18 @@
 .box{
   background-color: #000000;
   opacity: 0.5;
+}
+
+#review h1{
+  color: red;
+  font-family: 'Lobster', cursive;
+  font-weight: bolder;
+  font-size: 90px;
+}
+
+#review p{
+  color: #fff;
+  font-weight: bolder;
 }
 
 #review a{
@@ -303,8 +314,25 @@ address{
 
 /* MEDIA QUERY */
 
-@media (max-width:987px){
+@media (max-width:787px){
   .story_year{
     font-size: 160px;
+  }
+}
+
+@media (max-width: 787px){
+  #contact{
+    background-color: #660033;
+  }
+  #contact h1{
+    font-family: 'Charm', cursive;
+  }
+}
+
+@media (max-width: 787px){
+  #footer{
+    background-color: #00cc99;
+    height: 300px;
+
   }
 }
