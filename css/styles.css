@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+#
+
 .words{
   border-top: #b8b894;
   font-family: 'Lobster', cursive;
@@ -31,7 +33,7 @@
   position: inherit;
   color: rgba (149,147,147,0.2);
 } */
-=======
+
 .wrap{
   min-height: 100vh;
 }
@@ -85,6 +87,27 @@
   font-size: 16px;
 }
 
+
+/* BEGINNING OF OUR STORY */
+
+
+.wrap{
+  margin-bottom: 45px;
+}
+
+#our_story h1{
+  color: red;
+  font-family: 'Lobster', cursive;
+  font-weight: bolder;
+  font-size: 90px;
+}
+
+
+
+
+
+/* BEGINNING OF REVIEW */
+
 .picture{
   background-image: url("../img/food_review.jpg");
   background-size: cover;
@@ -96,18 +119,25 @@
   opacity: 0.5;
 }
 
-
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-
-.top_words{
+#review h1{
   color: red;
   font-family: 'Lobster', cursive;
-  font-weight: 500;
+  font-weight: bolder;
+  font-size: 90px;
 }
 
-.bottom_words{
-  color: #ffffff;
+#review p{
+  color: #fff;
+  font-weight: bolder;
 }
+
+#review a{
+  float: rigth;
+}
+/* NOT WORKING. NEED TO COME BACK TO THIS */
+
+
+
 
 /* Menu section */
 
@@ -172,7 +202,7 @@
   /* Content begins */
 
 .contact_form{
-  background-color: #ff6633;
+  background-color: #adad85;
   color: #fff;
   border: 1px solid #fff;
 }
@@ -186,7 +216,7 @@
 }
 
 #contact {
-  background-color: #ff0d06;
+  background-color: #2e2e1f;
 }
 
 #contact h1{
@@ -221,13 +251,105 @@ address{
 
 /* Finished contact */
 
+/* BEGINNING OF FOOTER */
+#footer{
+  height: 150px;
+  background-color: #f7f7f7;
+}
+
+#footer img:hover{
+  animation-duration: 0.5s;
+}
+/* above not working;need help */
+
+.name{
+  margin-top: 65px;
+  background-color: #f8512f;
+  margin-left: 10px;
+}
+
+.fa{
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.fa:hover{
+  color: #1aff1a;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+  background-color: #cb0366;
+  color: #ffffff;
+}
+.fa-snapchat{
+  background-color: #fffa01;
+  color: #ffffff;
+  margin-left: 9px;
+}
+
+.low{
+  margin-top: 40px;
+}
+
+#footer a:hover{
+  color: #f8512f;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+
+/* END OF FOOTER */
 
 
 
 /* MEDIA QUERY */
 
-@media (max-width:987px){
+@media (max-width:787px){
   .story_year{
     font-size: 160px;
+  }
+}
+
+@media (max-width: 787px){
+  #our_story{
+    background-color: #ffff99;
+  }
+}
+
+@media (max-width: 787px){
+  #our_story h1{
+    color: #008000;
+    background-color: #cccc00;
+  }
+  .styles{
+    color: #ff0066;
+  }
+}
+
+
+@media (max-width: 787px){
+  #contact{
+    background-color: #660033;
+  }
+  #contact h1{
+    font-family: 'Charm', cursive;
+  }
+}
+
+@media (max-width: 787px){
+  #footer{
+    background-color: #00cc99;
+    height: 300px;
+
   }
 }

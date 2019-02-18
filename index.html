@@ -7,6 +7,10 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+
 </head>
 <body>
 
@@ -50,7 +54,7 @@
 </nav>
 <!-- END OF NAVBAR -->
 <!-- CAROUSEL -->
-
+<carousel id="carousel"></carousel>
 <div class="container-fluid wrap">
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -95,10 +99,10 @@
 
 
 
-</div>
 
 
-<section class="container wrap">
+
+<section class="container-fluid wrap">
 		<div id="our_story">
 		 <div class=".col-xs-4 col-md-6">
 			 <h1 class="words">Our Story</h1>
@@ -115,10 +119,13 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, tenetur sint repellat ullam nesciunt placeat eveniet eum numquam illo consequatur pariatur, dolorum accusamus perferendis alias! Distinctio natus corporis, provident. Numquam, voluptate vero officiis sit nulla!</p>
 
     <h1 class="styles">1989</h1>
+		<a href="#carousel">Go Back to Top</a>
 	 </div>
 	</section>
 
-<div class="container" id="review">
+	<!--BEGINNING OF REVIEW  -->
+
+<div class="container-fluid" id="review">
 	<div class="jumbotron picture">
 		<div class="jumbotron box container text-center">
 			<div class="top_words">
@@ -127,9 +134,10 @@
 					<p>"The freshest and best ingredients come together to make some of the best food I have ever ate.  You can really taste the Central Valley in every bite."</p>
 				</div>
 			</div>
- </div>
+		</div>
 	</div>
-</div>
+		<a href="#carousel" class="link">Go Back to Top</a>
+	</div>
 
 <!-- Beginning of menu with jacque -->
 
@@ -236,9 +244,9 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo suscipit illo illum, eius officia in inventore aliquid mollitia dicta fugiat.</p>
 					</div>
 				</div>
-			</div>
-
-		</div>
+      </div>
+    </div>
+		    <a href="#carousel">Go Back to Top</a>
 	</div>
 </div>
 <!--Jacques menu ends  -->
@@ -300,8 +308,36 @@
 		</div>
 	</div>
 </div>
-
 <!-- CONTACT ENDS -->
+
+
+<!--FOOTER BEGINS  -->
+<footer id="footer">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2 col-md-2 name"><img src="img/name-01.png"  alt="Restaurante"></div>
+
+			<div class="col-sm-2 col-sm-offset-3 col-md-3 col-md-offset-3 social">
+				<i class="fa fa-facebook"></i><a href="https://www.facebook.com/">Facebook</a>
+				<i class="fa fa-instagram"></i><a href="https://www.instagram.com/?hl=en">Instagram</a>
+				<br class="hidden-xs">
+				<i class="fa fa-twitter"></i><a href="https://twitter.com/">Twitter</a>
+				<i class="fa fa-snapchat"></i><a href="https://www.snapchat.com/">Snapchat</a>
+     </div>
+		 <div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 low"><a href="file:///C:/Users/Griselda/Desktop/mobile-friendly/mfw-pet-store/index.html">In Need of Animal Care?</a></div>
+		 <br class="hidden-xs">
+		 <div class="col-xs-2 col-xs-offset-1 col-md-2 col-md-offset-1 low"><a href="#carousel">Go Back to Top</a></div>
+
+		</div>
+
+	</div>
+
+
+
+
+</footer>
+
+</div>
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
